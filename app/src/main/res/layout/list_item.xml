@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/text_view_creator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creator Name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/text_view_likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Like: "/>
+
+</LinearLayout>
